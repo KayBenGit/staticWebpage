@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kay Ben Chung Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #495057;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #6c757d;
+        }
+
+        .hero {
+            background-color: #007bff;
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        .btn-primary {
+            background-color: #28a745;
+            color: white;
+            padding: 0.7rem 1.5rem;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #218838;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-between;
+            padding: 3rem;
+            background-color: white;
+        }
+
+        .service {
+            flex: 1;
+            margin: 0 1rem;
+            padding: 2rem;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .service h3 {
+            margin-bottom: 1rem;
+            color: #007bff;
+        }
+
+        .service p {
+            color: #6c757d;
+        }
+
+        .testimonials {
+            padding: 3rem;
+            background-color: #e9ecef;
+        }
+
+        .testimonial {
+            margin-bottom: 2rem;
+            padding: 2rem;
+            background-color: white;
+            border-left: 5px solid #007bff;
+            border-radius: 4px;
+        }
+
+        .testimonial h4 {
+            margin-bottom: 0.5rem;
+        }
+
+        .testimonial p {
+            color: #6c757d;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        footer p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kay Ben's Web Solutions</h1>
+    </header>
+
+    <nav>
+        <a style="background-color: #28a745;" href="#services">Services</a>
+        <a style="background-color: #28a745;" href="#testimonials">Testimonials</a>
+        <a style="background-color: #28a745;"  href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>We Provide High-Quality Solutions</h2>
+        <p>Your business deserves the best. Let us help you grow with our top-tier services.</p>
+        <button class="btn-primary">Get Started</button>
+    </section>
+
+    <section id="services" class="services">
+        <div class="service">
+            <h3>Web Development</h3>
+            <p>Build stunning, responsive websites that drive engagement and deliver results.</p>
+        </div>
+        <div class="service">
+            <h3>SEO Optimization</h3>
+            <p>Enhance your online visibility and reach a broader audience with our SEO strategies.</p>
+        </div>
+        <div class="service">
+            <h3>Consulting</h3>
+            <p>Gain valuable insights and improve your business operations with our expert consulting.</p>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="testimonial">
+            <h4>Lee Hwei Ling</h4>
+            <p>"Their web development services exceeded our expectations! Highly recommend them for any business."</p>
+        </div>
+        <div class="testimonial">
+            <h4>Bamboo Mushmellow</h4>
+            <p>"Thanks to their SEO services, our website traffic increased by 200% in just 3 months."</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Kay Ben's Web Solutions &copy; 2024. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
